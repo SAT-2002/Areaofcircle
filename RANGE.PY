@@ -1,7 +1,7 @@
-start = int(input("Enter the beginning of range: "))
-end = int(input("Enter the end of range: "))
+list1 = [81, -1, 10, 75, 69, -23]
+  
+for num in list1:
+      
+    if num >= 0:
+       print(num,end=" ")
 
-for number in range (start, end+1):
-    
-        if num >= 0:
-           print(number )
